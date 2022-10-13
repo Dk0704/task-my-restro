@@ -10,18 +10,18 @@ const Sidebar = () => {
     return (
         <div>
             <aside>
-                <div class="top">
-                    <div class="logo" title='Click to logout'>
+                <div className="top">
+                    <div className="logo" title='Click to logout'>
                         <Avatar className='profile-photo' />
-                        <h2>LOOP <span class="danger">Kitchen</span></h2>
+                        <h2>LOOP <span className="danger">Kitchen</span></h2>
                     </div>
-                    <div class="close" id="close-btn">
-                        <span class="material-symbols-sharp">close</span>
+                    <div className="close" id="close-btn">
+                        <span className="material-symbols-sharp">close</span>
                     </div>
                 </div>
 
-                <div class="sidebar">
-                    <Link to="/">
+                <div className="sidebar">
+                    <Link to="/home">
                         <span><HomeIcon/></span>
                         <h1>Home</h1>
                     </Link>

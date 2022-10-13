@@ -1,0 +1,16 @@
+.MuiAutocomplete-option{
+    background-color: whitesmoke;
+}
+.searchbar{
+    display: flex;
+    gap: 20px;
+    /* height: 100%; */
+}
+
+.add{
+    width: 125px;
+    /* margin: 1px !important; */
+    color: white !important;
+    font-size: 15px !important;
+    background-color: rgb(180, 142, 216) !important;
+}

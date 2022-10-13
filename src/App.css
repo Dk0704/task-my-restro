@@ -69,6 +69,8 @@ body{
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  margin: 20px;
+  padding: 20px;
 }
 
 img{
